@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: 'Lato', sans-serif;
+
+}
+
+body {
+  background-color: #D9CDF7;
+  color: #271A45;
+}
+
+#app * {}
+
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#card {
+  position: relative;
+  margin: auto 0;
+}
+
+#card #graus {
+  position: absolute;
+  top: 3.8%;
+  right: 11.48%;
+}
+
+#info-produto {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+#legenda {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-items: center;
+}
+
+#legenda p:first-child {
+  font-weight: 300;
+  font-size: 10px;
+}
+
+#legenda h1 {
+  font-weight: 600;
+  font-size: 32px;
+  font-family: 'Crimson Pro', serif;
+}
+
+#legenda p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#comprar button {
+  background: none;
+  padding: 8px;
+  border-radius: 9999px;
+  border: 0.5px solid #271A45;
+}
+
+
+@media (max-width: 750px) {
+  #app {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+
+  #card {
+    margin: 0 10px;
+  }
+
+  #card #produto {
+    width: 260px;
+  }
+}
