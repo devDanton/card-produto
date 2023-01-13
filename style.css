@@ -9,6 +9,16 @@ body * {
 
 }
 
+:root {
+  --img-produto: url(./assets/produto.png);
+  --img-icon: url(./assets/360.svg);
+}
+
+.gif {
+  --img-produto: url(./assets/produto.gif);
+  --img-icon: url(./assets/fechar.svg);
+}
+
 body {
   background-color: #D9CDF7;
   color: #271A45;
@@ -28,14 +38,38 @@ body {
   margin: auto 0;
 }
 
-#card #graus {
+#produto {
+  width: 449px;
+  height: 223px;
+  background: var(--img-produto);
+}
+
+#graus {}
+
+#card button {
+  background: var(--img-icon);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: none;
+  border: none;
+  border-radius: 9999px;
+  width: 40px;
+  height: 30px;
+
   position: absolute;
   top: 3.8%;
   right: 11.48%;
 }
 
-#info-produto {
+#card button:hover {
+  border: 0.5px solid #271A45;
+  transition: background 0.5;
+}
 
+#info-produto {
   display: flex;
   flex-direction: column;
   gap: 20px;
