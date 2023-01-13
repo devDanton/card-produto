@@ -1,4 +1,4 @@
-<img src="https://boracodar.dev/logo.svg" style="width: 100px;">
+<img src="./assets/icon-rocketseat.svg" style="width: 100px;">
 
 <h1>Desafio #02 - Card produto</h1>
 <p>#boraCodar um card de produto</p>
@@ -8,7 +8,7 @@
 </p>
 <p>
   <h2>Protótipo</h2>
-  <img src=".git/preview.png" alt="">
+  <img src="./assets/preview.png" alt="">
 </p>
 
 <p style="background-color: #8257e5; width: max-content; border-radius: 999px; padding:6px;">Material Complementar
