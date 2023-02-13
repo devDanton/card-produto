@@ -8,7 +8,7 @@ button.addEventListener('click', function () {
   toggle = !toggle
 
   if (toggle) {
-    img.src = './assets/produto.gif'
+    img.src = './assets/produto-gif.gif'
     icon.src = './assets/fechar.svg'
   } else {
     img.src = './assets/produto.png'

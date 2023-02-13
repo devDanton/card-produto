@@ -15,7 +15,7 @@ body * {
 }
 
 .gif {
-  --img-produto: url(./assets/produto.gif);
+  --img-produto: url(./assets/produto-gif.gif);
   --img-icon: url(./assets/fechar.svg);
 }
 
