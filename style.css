@@ -9,16 +9,6 @@ body * {
 
 }
 
-:root {
-  --img-produto: url(./assets/produto.png);
-  --img-icon: url(./assets/360.svg);
-}
-
-.gif {
-  --img-produto: url(./assets/produto-gif.gif);
-  --img-icon: url(./assets/fechar.svg);
-}
-
 body {
   background-color: #D9CDF7;
   color: #271A45;
@@ -41,14 +31,9 @@ body {
 #produto {
   width: 449px;
   height: 223px;
-  background: var(--img-produto);
 }
 
-#graus {}
-
 #card button {
-  background: var(--img-icon);
-
   display: flex;
   align-items: center;
   justify-content: center;

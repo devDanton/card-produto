@@ -4,7 +4,7 @@ const button = document.getElementById('change')
 
 let toggle = false
 
-button.addEventListener('click', function () {
+button.addEventListener('click', () => {
   toggle = !toggle
 
   if (toggle) {

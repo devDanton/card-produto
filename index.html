@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./assets/cart.svg" type="image/x-icon" />
-    <title>Card Produto</title>
-  </head>
-  <body>
-    <div id="app">
-      <div id="card" class="produto">
-        <img id="produto" src="./assets/produto.png" alt="Foto do produto" />
-        <button id="change">
-          <img id="graus" src="./assets/360.svg" alt="" />
-        </button>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./assets/cart.svg" type="image/x-icon" />
+  <title>Card Produto</title>
+</head>
+
+<body>
+  <div id="app">
+    <div id="card" class="produto">
+      <img id="produto" src="./assets/produto.png" alt="Foto do produto" />
+      <button id="change">
+        <img id="graus" src="./assets/360.svg" alt="" />
+      </button>
+    </div>
+    <div id="info-produto" class="produto">
+      <div id="legenda">
+        <p>CÓDIGO: 42404</p>
+        <h1>Sofá Margot II - Rosé</h1>
+        <p>R$ 4.000</p>
       </div>
-      <div id="info-produto" class="produto">
-        <div id="legenda">
-          <p>CÓDIGO: 42404</p>
-          <h1>Sofá Margot II - Rosé</h1>
-          <p>R$ 4.000</p>
-        </div>
-        <div id="comprar" class="produto">
-          <button>ADICIONAR À CESTA</button>
-        </div>
+      <div id="comprar" class="produto">
+        <button>ADICIONAR À CESTA</button>
       </div>
     </div>
-  </body>
-  <script src="./script.js"></script>
+  </div>
+</body>
+<script src="./script.js"></script>
+
 </html>
